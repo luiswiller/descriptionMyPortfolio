@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastrar</title>
+</head>
+<body>
+  <main>
+    <section>
+      <h2>Cadastro:</h2>
+      <form action="obrigado.html">
+
+        <div>
+          <label for="ctrl-name">Nome: </label>
+          <input id="ctrl-name" name="name" type="text" placeholder="Digite seu nome">
+        </div>
+        <div>
+          <label for="ctrl-email">Email: </label>
+          <input id="ctrl-email" name="email" type="email" placeholder="Digite seu email">
+        </div>
+        <div>
+          <label for="ctrl-password">Senha: </label>
+          <input id="ctrl-password" name="password" type="password" placeholder="Digite sua senha">
+        </div>
+        <div>
+          <label for="ctrl-city">Cidade: </label>
+          <select name="city" id="ctrl-city">
+            <option value="1">Videira</option>
+            <option value="2">Joaçaba</option>
+            <option value="3">Iomere</option>
+            <option value="4">Caçador</option>
+            <option value="5">Florianópolis</option>
+            <option value="6">Blumenau</option>
+            <option value="7">Chapecó</option>
+          </select>
+        </div>
+        <div>
+          <label for="ctrl-level">Escolaridade: </label>
+          <div id="ctrl-level">
+            <input type="radio" name="level" id="ctrl-level-1">
+            <label for="ctrl-level-1">Fundamental</label>
+            <input type="radio" name="level" id="ctrl-level-2">
+            <label for="ctrl-level-2">Médio</label>
+            <input type="radio" name="level" id="ctrl-level-3">
+            <label for="ctrl-level-3">Superior</label>
+          </div>          
+        </div>
+
+        <div>
+          <label for="ctrl-languages">Linguagens que você conhece: </label>
+          <div id="ctrl-languages">
+            <input id="ctrl-languages-java" name="language1" type="checkbox">
+            <label for="ctrl-languages-java">Java</label>
+            <input id="ctrl-languages-cshap" name="language2" type="checkbox">
+            <label for="ctrl-languages-cshap">C#</label>
+            <input id="ctrl-languages-js" name="language3" type="checkbox">
+            <label for="ctrl-languages-js">JavaScript</label>
+            <input id="ctrl-languages-python" name="language4" type="checkbox">
+            <label for="ctrl-languages-python">Python</label>
+          </div>
+        </div>
+        
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Apagar tudo">
+      </form>
+    </section>
+  </main>
+  
+</body>
+</html>
